@@ -27,4 +27,8 @@ textfortrim = "           Hello World            "
     document.getElementById("p14.1").innerHTML = "14.1) " +text.replace("Hello" , "Salam");
     document.getElementById("p14.2").innerHTML = "14.2) " +text.replace("World" , "Dunya");
     document.getElementById("p15.1").innerHTML = "15.1) " +text.split(" ");
+    document.getElementById("p16.1").innerHTML = "16.1) " +text.indexOf("Hello")
+    document.getElementById("p16.2").innerHTML = "16.2) " +text.indexOf("World")
+    document.getElementById("p17.1").innerHTML = "17.1) " +text.search("Hello")
+    document.getElementById("p17.2").innerHTML = "17.2) " +text.search("World")
     
