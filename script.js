@@ -1,3 +1,4 @@
+
 text = "Hello World"
 textfortrim = "           Hello World            "
     document.getElementById("p1").innerHTML= "1.1) " + text.length;
@@ -31,4 +32,9 @@ textfortrim = "           Hello World            "
     document.getElementById("p16.2").innerHTML = "16.2) " +text.indexOf("World")
     document.getElementById("p17.1").innerHTML = "17.1) " +text.search("Hello")
     document.getElementById("p17.2").innerHTML = "17.2) " +text.search("World")
+    document.getElementById("p18.1").innerHTML = "18.1) " +text.match("lo")
+    document.getElementById("p19.1").innerHTML = "19.1) " +text.includes("Hello")
+    document.getElementById("p19.2").innerHTML = "19.2) " +text.includes("Salam")
+    document.getElementById("p20.1").innerHTML = "20.1) " +text.startsWith("Hello")
+    document.getElementById("p20.2").innerHTML = "20.2) " +text.startsWith("Salam")
     
